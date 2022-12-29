@@ -1,9 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
+import { Header } from './Components/Header/Header';
 
 function App() {
   return (
-    <Header>Table is ready</Header>
+    <Header header="Table is ready"> Table is ready </Header>
   );
 }
 
